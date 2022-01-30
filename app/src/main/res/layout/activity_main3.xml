@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wllpps"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/masukkan"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#30ff"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/angka_pertama"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#30ff"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/angka_kedua"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/Edtangka1"
+            android:layout_width="@dimen/widht_layout"
+            android:layout_height="@dimen/hight_layout"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/operator"
+            android:layout_width="@dimen/widht_layout1"
+            android:layout_height="@dimen/hight_layout"
+            android:layout_weight="2"
+
+            android:gravity="center"
+            android:text="@string/tambah"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/Edtangka2"
+            android:layout_width="@dimen/widht_layout"
+            android:layout_height="@dimen/hight_layout"
+            android:layout_weight="2"
+
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#30ff"
+        android:gravity="center"
+        android:text="@string/jawaban_anda"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/Edtjawab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:inputType="number"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size1"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button_bantuan"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+
+        android:text="Input Soal"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@android:color/white" />
+
+
+    <Button
+        android:id="@+id/button_result"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/cek"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/show_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+
+        android:gravity="center"
+        android:text="@string/hasil"
+        android:textColor="#40ff"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/show_result1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+
+        android:gravity="center"
+        android:text="@string/hasil1"
+        android:textColor="#40ff"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/lanjut"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:backgroundTint="@color/teal_700"
+            android:clickable="true"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:text="SELESAI"
+
+            >
+
+
+        </Button>
+
+
+
+    </LinearLayout>
+</LinearLayout>
+

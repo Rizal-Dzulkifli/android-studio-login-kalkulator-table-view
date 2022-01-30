@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">login</string>
+    <string name="app_name1">My Application</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="masukkan">Masukkan</string>
+    <string name="angka_pertama">Angka Pertama</string>
+    <string name="angka_kedua">Angka Kedua</string>
+    <string name="tambah">+</string>
+    <string name="jawaban_anda">Jawaban Anda</string>
+    <string name="cek">Cek</string>
+    <string name="hasil">Hasil</string>
+    <string name="hasil1">Benar/Salah</string>
+</resources>
